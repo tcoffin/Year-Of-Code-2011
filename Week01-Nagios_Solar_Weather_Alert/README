@@ -1,0 +1,6 @@
+This week the program is a Nagios check command for monitoring Solar Weather.
+
+You're probably asking why anyone would want to monitor solar weather with Nagios!?
+My motivation is because it's because it's ridiculous. Too often in the world of testing, I hear about testers too worried about testing far-flung testing scenarios han doing intelligent core functional testing. 
+When I say far-flung scenarios, I mean really ridiculous situations. Stuff like: "we should corrupt the database and see if the product works still!" or "we should test if having a sound card in the server causes log files to not be written to disk" (I've made these up to protect the guilty, but this is illustrative)
+As a commentary on this testing methodology, I write this Nagios check command so someone can use it to be alerted in the event of Solar Weather events that _may_ be affecting the software product under test. Because if you aren't testing for it, then clearly you should be worried about how Solar X-Rays may be affecting your product's ability to read from a corrupted database or write to a log file. 
