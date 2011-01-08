@@ -1,6 +1,12 @@
 This week the program is a Nagios check command for monitoring Solar Weather.
 
+The primary motivation for this week's task was to reaquaint myself with Python.
+I learned how to pull some data from a webpage which I'd never done with python before (do it all the time in perl, but this is about learning, right?).
+As it turns out there wasn't a good source of the solar flare data that I was looking for. I did however manage to find a site that provided status images of the current state (really looks like a site straight out of the mid 90s). So I used the content length from the http headers to compare the various images that could be sent. The benefit of doing it this way is that I think it's probably even more data efficient than if I was scraping numerical data from a webpage (as had been my original intention).
+
 You're probably asking why anyone would want to monitor solar weather with Nagios!?
-My motivation is because it's because it's ridiculous. Too often in the world of testing, I hear about testers too worried about testing far-flung testing scenarios han doing intelligent core functional testing. 
+My motivation is because it's ridiculous. Too often in the world of testing, I hear about testers too worried about testing far-flung testing scenarios than doing intelligent core functional testing. 
 When I say far-flung scenarios, I mean really ridiculous situations. Stuff like: "we should corrupt the database and see if the product works still!" or "we should test if having a sound card in the server causes log files to not be written to disk" (I've made these up to protect the guilty, but this is illustrative)
 As a commentary on this testing methodology, I write this Nagios check command so someone can use it to be alerted in the event of Solar Weather events that _may_ be affecting the software product under test. Because if you aren't testing for it, then clearly you should be worried about how Solar X-Rays may be affecting your product's ability to read from a corrupted database or write to a log file. 
+
+Also, because Nagios is pretty awesome in it's flexibility ;)
