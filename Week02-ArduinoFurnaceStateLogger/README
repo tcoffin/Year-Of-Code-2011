@@ -1,0 +1,10 @@
+This little program's intent is to be tap the furnace wiring of my house and record when the furnace is on or off to the SDcard. 
+Not a terribly interesting program but this is my first arduino programming attempt (other than the usual blinking LED tutorial).
+I'm a software guy so I'm a little unsure of how to work properly with the 25v furnace wiring properly. But for now I've prototyped the
+program using a button connected to digital pin 2. I figure maybe in future weeks I'll add more functionality to this program and hopefully
+get the wiring figured out (or blow something up trying!).
+
+For hardware I have an Arduino Uno and an Interface Shield (dfrobot.com) which features a microSD slot.
+
+Most of the SD writing code is based off of an example I found somewhere, I wish I'd taken note of where so I could give proper credit (if you 
+recognize it, let me know and I'll gladly give credit where it's due).
