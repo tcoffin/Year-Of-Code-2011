@@ -1,0 +1,3 @@
+This Twitter bots accepts @reply messages and responses with the original message obfuscated in to a series of @replies to the original sender.
+
+The encoding technique uses passages from project gutenberg and performs slight alterations to whitespace in order to provide encoding
