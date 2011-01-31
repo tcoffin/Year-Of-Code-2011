@@ -1,3 +1,5 @@
-This Twitter bots accepts @reply messages and responses with the original message obfuscated in to a series of @replies to the original sender.
+Week 3
 
-The encoding technique uses passages from project gutenberg and performs slight alterations to whitespace in order to provide encoding
+The idea behind this week's project was to hide messages in plain text messages using unicode. The idea is that you substitute the whitespace of the message with unicode whitespace characters instead. It all should appear like whitespace in most clients that support unicode. 
+
+Week 3 is running behind so I've cut the original scope of this project down a bit. Eventually what I would like to do is build this in to a client application for Twitter. You'd enter your payload, followed by n messages (max 140 characters, obviously) until there's enough available whitespace available to encode the entire payload. 
